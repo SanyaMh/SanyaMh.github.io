@@ -1,6 +1,6 @@
  body{
-  background-image: url("732.gif");
-  background-repeat: repeat;
+   background: red; /* For browsers that do not support gradients */
+   background: linear-gradient(180deg, red, yellow); /* Standard syntax (must be last) */
 }
 ul {
     list-style-type: none;
