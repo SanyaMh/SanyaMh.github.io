@@ -33,3 +33,15 @@ function exponent (){
   var result = parseInt(number1) * parseInt(number1);
   alert("I did my calculations and I got: " + result);
 }
+function kilometer (){
+kilometer = prompt ("Enter kilometers for me to convert")
+var converter = 0.62;
+  var result = kilometer * converter;
+  alert(result);
+}
+function inches (){
+  inches = prompt ("Enter inches for me to convert")
+var converter = 2.54;
+  var result = inches * converter;
+alert(result);
+}
