@@ -29,7 +29,7 @@ function rps (){
     alert("You put " + input + "\nI put " + answers[result])
 }
 function banana (){
-  var answers=["orange","passion fruit","apple","banana","watermelon","grape","strawberrie","blueberry","raspberry"];
+  var answers=["orange","passion fruit","apple","banana","watermelon","grape","strawberry","blueberry","raspberry","blackberry","mango","guava","papaya","pomegranate","dragon fruit"];
   var result = Math.floor(Math.random()*answers.length);
   alert(answers[result]);
 }
